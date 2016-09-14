@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="A page for CSCI571 homework#3">
+        <title>Super HTML!</title>
+        
+        <style>
+            .container{
+                margin-right: auto;
+                margin-left: auto;
+                margin-top: 30px;
+                height: auto;
+                position: relative;
+                width: 700px;
+                align-content: center;
+            }
+            
+            .f1{
+                font-family: Trebuchet MS;
+                font-weight: bold;
+                font-size: 36px;
+                padding-left: 8px;
+                color: black;  
+            }
+            .f2{
+                font-family: Trebuchet MS;
+                font-size: 15px;
+                padding-left: 8px;
+                color: black;  
+            }
+            .f3{
+                font-family: Trebuchet MS;
+                font-size: 15px;
+                padding-left: 12px;
+                color: black;  
+            }
+            .f4{
+                font-family: Trebuchet MS;
+                font-size: 18px;
+                color: #c74454;
+                padding-top: 8px;
+                padding-bottom: 10px;
+                font-weight: bold;
+                
+            }
+            .f5{
+                font-family: Trebuchet MS;
+                font-size: 16px;
+                color: black;
+                padding-bottom: 10px;
+                font-weight: bold;
+                
+            }
+            .f6{
+                font-family: Trebuchet MS;
+                color: black;
+                line-height: 16px;
+                font-size: 12px;
+                
+            }
+            .f7{
+                font-family: Trebuchet MS;
+                padding-left: 36px;
+                margin-bottom: 0px;
+                font-size: 12px;
+            }
+            .f8{
+                font-family: Trebuchet MS;
+                padding-left: 36px;
+                margin-top: 3px;
+                font-size: 12px;     
+            }
+            .f9{
+                font-family: Trebuchet MS;
+                color: #c74454;
+                font-size: 18px;
+                margin: 0px;
+                padding-bottom: 10px;
+                font-weight: bold;
+            }
+            .f10{
+                font-family: Trebuchet MS;
+                color: black;
+                line-height: 16px;
+                font-size: 12px;
+                float: right;
+                padding-right: 10px;
+            }
+            .f11{
+                font-family: Trebuchet MS;
+                color: #c74454;
+                font-size: 18px;
+                text-align: left;
+                margin: 0px;
+                font-weight: bold;
+                
+            }
+            .f12{
+                font-family: Trebuchet MS;
+                color: #c74454;
+                font-size: 18px;
+                text-align: right;
+                margin: 0px;
+                font-weight: bold;
+            }
+            .f13{
+                color: #c74454;
+                font-size: 18px;
+                margin: 0px;
+                font-family: Trebuchet MS;
+                font-weight: bold;
+            }
+            .f14{
+                color: black;
+                font-size: 14px;
+                margin: 0px;
+                font-family: Trebuchet MS;
+                margin-top: 5px; 
+            }
+            .f15{
+                font-family: Trebuchet MS;
+                color: #c74454;
+            }
+             ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #010205;
+                    border-radius: 3px 3px 3px 3px;
+                    padding-left: 30px;
+                    font-family: Trebuchet MS;
+                    font-size: 12px;
+                    height: auto;
+                    
+                }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: #f8f5f3;
+                text-align: center;
+                padding: 8px 8px;
+                text-decoration: none;
+                width: 60px;
+            }
+            li a:hover:not(.active) {
+                background-color: #c74454;
+                color: #f8f5f3;
+            }
+            .active{
+                background-color: #c74454;
+                color: #f8f5f3;
+                border-radius: 3px 0 0 3px;
+                
+            }
+            .div1{
+                background-color: white;
+                overflow: hidden;
+                padding: 14px;
+                margin: 0px 0px 0px 0px;
+                border-radius: 6px 6px 6px 6px;
+                display: block;  
+            }
+            .div11{
+                float:left;
+                margin-right: 12px;
+                padding-right: 80px;
+            }
+            .div12{
+                float: left;
+                background-color: white;
+                padding-top: 17px;
+                padding-bottom: 5px;
+                padding-left: 36px;
+            }
+            .smlogo{
+                border-color: #f8f5f3;
+                align-items: center;
+                height: 80px;
+                width: 200px;   
+            }
+            
+            .div2{
+                background-color: white;
+                overflow: hidden;
+                margin: 24px 0px 30px 0px;
+                border-radius: 6px 6px 6px 6px;
+            }
+            .div3:hover{
+			background:#c74454;
+			}
+			.div3:hover .f10{
+			             color:#f8f5f3;
+			}
+			.div3:hover .f7{
+			             color:#f8f5f3;
+			}
+			.div3:hover .f8link{
+			                 color:#e9b178 !important;
+			}
+			.div3:hover .f8span{
+			                 color:#f8f5f3;
+			}
+			
+			.div3:hover .f9{
+			             color:#e9b178;
+			}
+			
+			.div3:hover .f8link{
+			             color:#e9b178;
+			}
+            
+            .div4{
+                float: left;
+                
+            }
+            .div5{
+                float: right;
+                padding-top: 12px;
+            }
+            .div7{
+                width: 610px;
+            }
+            .div71{
+                width: 305px;
+                float: left;
+                margin: 0px;
+            }
+            .div8{
+                width: 700px;
+                float: left;
+                margin: 0px;
+            }
+            .div81{
+                width: 210;
+                float: left;
+                margin-left: 30px;
+                
+            }
+            .div82{
+                width: 195px;
+                float: left;
+                margin-left: 125px;
+                
+            }
+            .div83{
+                width: 80px;
+                float: left;
+                margin-left: 165px;
+            }
+            .div9{
+                background-color: white;
+                padding: 12px;
+                border-radius: 6px 6px 6px 6px;
+                display: block;
+                overflow: hidden;
+                
+            }
+            .div91{
+                float: left;
+                width: 160px;
+                
+            }
+            .div92{
+                float: left;
+                width: 65px;
+            }
+            .div93{
+                float: left;
+                font-family: Trebuchet MS;
+                color: black;
+                line-height: 16px;
+                font-size: 12px;   
+            }
+            .div10{
+                float: right;
+                font-family: Trebuchet MS;
+                font-size: 12px;
+                padding-top: 24px;
+                padding-bottom: 18px;
+            }
+            
+            .link:hover{
+                background-color: #c74454;
+                color: #f8f5f3;
+            }
+            .link{
+                text-decoration:none; 
+	            color:black;
+                font-family: Trebuchet MS;
+            }
+            .l1{
+                margin: 0px;
+                margin-top: 10px;
+                font-size: 12px;
+            }
+            .l2{
+                width: 200px;
+                margin: 0px;
+                font-size: 12px;
+                margin-top: 10px;
+                
+            }
+            .l3{
+                margin: 0px;
+                margin-top: 10px;
+                padding-bottom: 30px;
+                font-size: 12px;
+            }
+        
+        </style>
+    </head>
+    
+    <body background = "http://scf.usc.edu/~ravipati/bg.png">
+        
+        <div class="container" align="center">
+            <div align="left">
+            <div style="margin:0px 0px 24px 0px;" >
+                <p ><font class="f1">Super HTML!</font><font class="f2">HTML in the </font><br>
+                <font class="f3">year <u>2016</u></font>
+                </p>
+            </div>
+        
+            <div style="margin:0px 0px 24px 0px;">
+                <ul>
+                  <li class="active"><a href="http://scf.usc.edu/~ravipati/X.html#home" target="_blank">home</a></li>
+                  <li><a href="http://scf.usc.edu/~ravipati/X.html#portfolio" target="_blank">portfolio</a></li>
+                  <li><a href="http://scf.usc.edu/~ravipati/X.html#blog" target="_blank">blog</a></li>
+                  <li><a href="http://scf.usc.edu/~ravipati/X.html#contact" target="_blank">contact</a></li>
+                </ul>
+            </div>
+            <div class="div1">
+
+                        <div class="div11"><div class="f4">
+                            Featured Article</div>
+                            <div class="f5">HTML in Super Magazine!</div>
+                            <div class="f6">Discover how to use graceful degradation and progressive<br> enhancement techniques to achieve an outstanding, cross-<br>browser website today!</div>
+                        </div>
+                        <div class="div12" align="middle"> <img src="http://scf.usc.edu/~ravipati/sm-logo.gif" border="2" class="smlogo">
+                        </div>
+		      </div>
+        <div class="div2" style="padding:12px">
+            <div class="div3" style="overflow:hidden;border-bottom:1.5px solid #f8f5f3;padding-top: 12px;padding-bottom: 12px;">
+			
+				<div class="div4"> 
+
+					<div class="f7">10th July 2016</div>
+					<div class="f8"><span class="f8span">By </span><font style="color:#c74454" class="f8link"><u>Enrique Ram&iacute;rez</u></font></div>
+				</div>
+                <div class="div5">
+					<div class="f9">CSS3 is the ticket</div>
+					<div class="f10">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc<br>
+					vitae libero iaculis elementum. Nullam et justo <font style="color:#c74454;"><u class="f8link">non sapien</u></font> dapibus blandit nec et<br>
+					leo. Ut ut malesuada tellus.
+					</div>	
+				</div>
+            
+            </div>
+            <div class="div3" style="overflow:hidden; padding-top:12px;padding-bottom:12px;">
+				<div class="div4">
+					<div class="f7">9th April 2016</div>
+					<div class="f8"><span class="f8span">By </span><font style="color:#c74454" ><u class="f8link">Enrique Ram&iacute;rez</u></font></div>
+				</div>
+                
+                <div class="div5">
+					<div class="f9">HTML5 is the language</div>
+					<div class="f10">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc<br>
+					vitae libero iaculis elementum. Nullam et justo <font style="color:#c74454;"><u class="f8link">non sapien</u></font> dapibus blandit nec et<br>
+					leo. Ut ut malesuada tellus.
+					</div>
+				</div>
+            </div>
+        </div>
+             <div>
+                 <div class="div7">
+                            <div class="div71">
+                                <div class="f11">blogroll</div>
+                            </div>
+                            <div class="div71">
+                                <div class = "f12">social</div>
+                            </div>
+                    </div>
+                 <div class="div8">
+                     <div class="div81">
+                            <div class="l1"><a href="http://scf.usc.edu/~ravipati/X.html#html5" target="_blank" class="link">HTML5 Doctor</a></div>
+                            <div class="l1"><a href="http://scf.usc.edu/~ravipati/X.html#supermag" target="_blank" class="link">Super Magazine</a></div>
+                        </div>
+                     <div class="div82">
+                            <div class="l2" ><a href="http://scf.usc.edu/~ravipati/X.html#spec" target="_blank" class="link"> HTML5 Spec (working draft)</a></div>
+                        </div>
+                     <div class="div83">
+                        
+                            <div class="l1" style="overflow: hidden;border-bottom: 1px solid #f3e2e2;padding-bottom: 10px;"><a href="http://scf.usc.edu/~ravipati/X.html#facebook" target="_blank" class="link" style="vertical-align: middle;"><img src="http://scf.usc.edu/~ravipati/facebook.png" title="facebook-logo" style="vertical-align: middle;"> facebook</a></div>
+                            
+                            <div class="l3"><a href="http://scf.usc.edu/~ravipati/X.html#twitter" target="_blank" class="link" style="vertical-align: middle;"><img src="http://scf.usc.edu/~ravipati/twitter.png" style="vertical-align: middle;"> twitter</a></div>
+                        </div>
+                     
+                 </div>
+            </div>
+        <div class="div9">
+                    <div class="div91">
+                            <div><span class="f13">Super Magazine</span></div>
+                            <div class="f14">Amazing Magazine</div>
+                    </div>
+                    <div class="div92">
+                    <img src="http://scf.usc.edu/~ravipati/avatar.gif">
+                    </div>
+                    <div class="div93">Super Magazine is a website and blog that offers resources and advice to web<br> developers and web designers. It was founded by Jimmy Jantz.</div>
+            </div>
+            <div class="div10">2005-2016 <u class="f15">Super Magazine</u>.</div>
+                
+        </div>
+            
+    </div> 
+    </body>
+</html>
