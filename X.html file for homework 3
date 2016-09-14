@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="description" content="Destination page for the 9 links of homework3">
+ <!-- <title>Destination of Links</title>-->
+  </head>
+  <body>
+        <div style="height:10%">
+            <h2 id="home">Home</h2>
+            <p>This chapter explains bla bla bla. </p>
+            <br><br>
+      </div>
+      <div style="height:10%">
+            <h2 id="portfolio">Portfolio</h2>
+            <p>This chapter explains bla bla bla. </p>
+            <br><br>
+      </div>
+      <div style="height:10%">
+            <h2 id="blog">Blog</h2>
+            <p>This chapter explains bla bla bla. </p>
+            <br><br>
+      </div>
+      <div style="height:10%">
+            <h2 id="contact">Contact</h2>
+            <p>This chapter explains bla bla bla. </p>
+            <br><br>
+      </div>
+      <div style="height:10%">
+            <h2 id="html5">HTML5 Doctor</h2>
+            <p>This chapter explains bla bla bla. </p>
+            <br><br>
+      </div>
+      <div style="height:10%">
+            <h2 id="spec">HTML5 Spec</h2>
+            <p>This chapter explains bla bla bla. </p>
+            <br><br>
+      </div>
+      <div style="height:10%">
+            <h2 id="supermag">Super Magazine</h2>
+            <p>This chapter explains bla bla bla. </p>
+            <br><br>
+      </div>
+      <div style="height:10%">
+            <h2 id="facebook">Facebook</h2>
+            <p>This chapter explains bla bla bla. </p>
+           <br><br>
+      </div>
+      <div style="height:10%">
+            <h2 id="twitter">Twitter</h2>
+            <p>This chapter explains bla bla bla. </p>
+            <br><br>
+      </div>
+      <noscript></noscript>
+  </body>
+</html>
